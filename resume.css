@@ -1,0 +1,48 @@
+ .resume {
+    font-family: Arial, sans-serif;
+  width: 210mm; /* A4 width */
+  height: 297mm; /* A4 height */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  }
+  
+  /* Additional styles for centering content */
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
