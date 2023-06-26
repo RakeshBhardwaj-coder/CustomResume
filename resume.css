@@ -129,7 +129,7 @@ color: #67a1cc ;
   margin-top: 15px;
 }
 .space2{
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .space3{
   margin-top: 3em;
@@ -155,5 +155,8 @@ color: #67a1cc ;
   font-weight: 500;
 }
 #interests{
-
+  margin-bottom: 5em;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: solid 2px gray;
 }
