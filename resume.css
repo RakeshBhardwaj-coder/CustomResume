@@ -4,9 +4,24 @@
 }
 
 body {
-  border: 2px solid black;
       padding: 20px;
-      
+
+}
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h2{
+  text-align: left;
+  font-weight: bold;
+}
+.name{
+  font-weight: normal;
+
+}
+h5{
+  font-weight: normal;
+  color: rgb(53, 101, 192);
 }
 .profile{
   justify-content: center;
@@ -49,9 +64,7 @@ font-family: 'Rajdhani', sans-serif;
   margin-bottom: 1.5px;
 }
 
-  h1 {
-  text-align: left;
-}
+ 
 
 .section {
   margin-bottom: 20px;
