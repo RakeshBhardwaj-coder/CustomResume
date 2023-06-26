@@ -114,3 +114,46 @@ color: #67a1cc ;
 #workExp{
   margin-top: 0px;
 }
+
+#skills{
+  margin-bottom: 5em;
+  background-color: rgb(201, 201, 201);
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.space1{
+  margin-top: 15px;
+}
+.space2{
+  margin-top: 3em;
+}
+.space3{
+  margin-top: 3em;
+}
+.project-name{
+  font-weight: 500;
+  line-height: 1;
+}
+.project-details{
+  line-height: 1.5;
+  font-size: small;
+  text-align: justify;
+}
+.language-name{
+  line-height: 1;
+  font-size: small;
+  text-align: justify;
+}
+.language-details{
+  line-height: 1;
+  font-size: xx-small;
+  color: #387ea9;
+  font-weight: 500;
+}
+#interests{
+
+}
