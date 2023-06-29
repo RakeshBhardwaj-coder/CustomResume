@@ -10,6 +10,17 @@ padding: 0;
 col,row,hr,br{
   margin: 0;
   padding: 0;
+}
+h1,h2,h3,h4,h5,h6,h7,h8,h9,br{
+  margin: 0;
+  padding: 0;
+}
+.sec1,.sec2,.sec3,.sec4{
+  padding-top: 0px;
+}
+a,p{
+  margin: 0;
+  padding: 0;
   line-height: 1;
 }
 .devName{
@@ -30,8 +41,8 @@ col,row,hr,br{
 }
 .name{
   margin: 0;
-  font-weight: normal;
-  font-size: x-large;
+  font-weight: 500;
+  font-size: x-small;
 }
 @media print{
   .bg{
@@ -46,7 +57,6 @@ col,row,hr,br{
 }
 @media screen {
   .bg{
-    box-shadow: 0 0 50px rgba(255, 0, 0, 0.5);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: -200px;
@@ -79,17 +89,7 @@ background-color:black ;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-a{
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-}
-p{
-  margin: 0;
-  padding: 0;
-  line-height: 1;
 
-}
 .links .one{
   margin-left: 35px;
 }
@@ -115,50 +115,41 @@ p{
   width: 20px;
 }
 h1{
-  font-size: medium;
+  font-size: small;
   text-transform: uppercase;
   font-weight: bold;
 }
 h2{
   font-weight: bold;
-  font-size: medium;
+  font-size: x-small;
   text-transform: capitalize;
 }
-
+h3{
+  font-size: xx-small;
+  font-weight: normal;
+  color: #000000;
+  line-height: 1;
+}
 h6{
-  font-size: small;
+  font-size: xx-small;
   font-weight: normal;
   color: #387ea9;
   line-height: 1;
+}
 
-}
-h7{
-  font-size: x-small;
-  line-height: 1;
-}
 
 .list li{
-  font-size: x-small;
-  font-weight: bold;
+  font-size: xx-small;
+  font-weight: 500;
   color: #000000;
 
 }
 ul{
   margin: 0;
-  padding: 10px;
+  padding: 0 10px 0 15px;
 }
-
-.sec1{
-  padding-top: 0px;
-}
-.sec2{
-  padding-top: 0px;
-}
-.sec3{
-  padding-top: 0px;
-}
-.sec4{
-  padding-top: 0px;
+li{
+  font-size: xx-small;
 }
 #details{
   font-size: x-small;
@@ -179,7 +170,7 @@ ul{
 }
 
 #skills{
-  margin-bottom: 5em;
+  font-size: xx-small;
   background-color: rgb(201, 201, 201);
   padding: 5px 10px;
   border-radius: 5px;
@@ -188,21 +179,16 @@ ul{
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.space1{
-  margin-top: 15px;
+.space{
+ margin: 0;
+ padding: 0;
 }
-.space2{
-  margin-top: 2em;
-}
-.space3{
-  margin-top: 3em;
-}
+
 .project-name{
   font-weight: 500;
   line-height: 1;
 }
 .project-details{
-  line-height: 1.5;
   font-size: small;
   text-align: justify;
 }
@@ -218,7 +204,7 @@ ul{
   font-weight: 500;
 }
 #interests{
-  margin-bottom: 5em;
+  font-size: xx-small;
   padding: 5px 5px;
   border-radius: 5px;
   border: solid 2px gray;
