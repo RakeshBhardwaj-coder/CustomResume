@@ -46,12 +46,12 @@ col,row,hr,br{
 }
 @media screen {
   .bg{
+    box-shadow: 0 0 50px rgba(255, 0, 0, 0.5);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: -200px;
     background-position-y: 0px;
     background-image: url(img/de3.png);
-    background-size: auto A4;
     /* background-color: #2e3a44; */
     background-color: #ced6de;
   }
@@ -63,9 +63,7 @@ col,row,hr,br{
   margin-left: 1em;
 }
 .profile img{
-  padding: 10px;
   width: 140px;
-  border: 0px solid rgb(198, 198, 198);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -75,6 +73,11 @@ col,row,hr,br{
 #img-profile{
   margin-left: 0;
 margin-bottom: 0;
+padding: 2px;
+margin: 5px;
+background-color:black ;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 a{
   margin: 0;
