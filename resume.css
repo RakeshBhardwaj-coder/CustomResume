@@ -2,8 +2,6 @@
   size: A4;
   margin: 0;
 }
-body{
-}
 col,row,hr,br{
   margin: 0;
   padding: 0;
@@ -18,7 +16,7 @@ h1,h2,h3,h4,h5,h6,h7,br{
   line-height: 1;
   font-size:11px;
 }
-.sec1,.sec2,.sec3,.sec4{
+.sec{
   padding-top: 0px;
 }
 a,p,span{
