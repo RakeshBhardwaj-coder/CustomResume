@@ -166,7 +166,7 @@ h2{
   text-transform: capitalize;
 }
 h3{
-  font-size: x-small;
+  font-size: small;
   font-weight: normal;
   color: #000000;
   line-height: 1;
@@ -185,9 +185,9 @@ h9{
   margin: 2px;
   padding-top: 20px;
 }
-.list li{
+#smallText li{
   margin-top: 2px;
-  font-size: medium;
+  font-size: small;
   font-weight: 500;
   color: #000000;
 
@@ -197,7 +197,7 @@ ul{
   padding: 0 10px 0 15px;
 }
 li{
-  font-size: xx-small;
+  font-size: 13px;
 }
 #details{
   font-size: x-small;
@@ -216,6 +216,7 @@ li{
 #workExp{
   margin-top: 0px;
 }
+
 
 #skills{
   font-size: xx-small;
